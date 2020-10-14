@@ -1,7 +1,7 @@
 import buildService from "./build.js";
-import authService from "./auth.js";
+import userService from "./user.js";
 
 export default {
     build: buildService,
-    auth: authService,
+    user: userService,
 };
